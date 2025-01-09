@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* html {
+  font-family: inter;
+} */
+@layer components {
+  .activeBar {
+    @apply font-bold;
+  }
+  .showBurgerIcon {
+    @apply absolute left-1/2 top-full w-full -translate-x-1/2 flex-col items-center justify-center divide-y-[1px] divide-[#777] bg-[#e5e5e5] text-center text-black backdrop-blur-sm lg:flex;
+  }
+
+  .lisInBar {
+    @apply p-11 transition-colors duration-150 hover:bg-[#878787];
+  }
+}
