@@ -9,7 +9,7 @@
     @apply font-bold;
   }
   .showBurgerIcon {
-    @apply absolute left-1/2 top-full w-full -translate-x-1/2 flex-col items-center justify-center divide-y-[1px] divide-[#777] bg-[#e5e5e5] text-center text-black backdrop-blur-sm lg:flex;
+    @apply absolute left-1/2 top-full w-full -translate-x-1/2 flex-col items-center justify-center divide-y-[1px] divide-[#777] bg-[#e5e5e5] text-center text-black backdrop-blur-sm lg:flex order-last;
   }
 
   .lisInBar {

@@ -1,15 +1,15 @@
-import IntroSection from "../feature/landing/IntroSection"
-import Header from "../ui/Header"
+import IntroSection from "../feature/landing/IntroSection";
+import Header from "../ui/Header";
 
 function LandingPage() {
-    return (
-        <div className=" xl:px-20 px-4 bg-mainWhite ">
-        
+  return (
+    <div>
+      <div className="relative bg-mainWhite px-4 xl:px-20">
         <Header />
-       <IntroSection />
-            
-        </div>
-    )
+        <IntroSection />
+      </div>
+    </div>
+  );
 }
 
-export default LandingPage
+export default LandingPage;
